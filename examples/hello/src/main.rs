@@ -59,7 +59,7 @@ fn hello(lang: Option<Lang>, opt: Options<'_>) -> String {
 
     match lang {
         Some(Lang::Russian) => greeting.push_str("Привет"),
-        Some(Lang::English) => greeting.push_str("Hello"),
+        Some(Lang::English) => greeting.push_str("Hello, 👋"),
         None => greeting.push_str("Hi"),
     }
 
