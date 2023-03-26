@@ -1,1 +1,2 @@
-beta
+[toolchain]
+channel = "beta"
